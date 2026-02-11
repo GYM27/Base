@@ -4,7 +4,7 @@ import java.sql.*;
 import java.time.LocalDate;
 
 public class App implements AutoCloseable {
-    private final static String URL = "jdbc:postgresql://localhost:5432/MiniProjecto";
+    private final static String URL = "\"jdbc:postgresql://localhost:5432/MiniProjecto\"";
     private final static String USER = "postgres";
     private final static String PASSWORD = "postgres";
     private Connection conn;
